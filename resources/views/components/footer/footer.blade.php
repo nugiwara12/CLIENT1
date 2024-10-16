@@ -6,7 +6,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="footer-contact">
                             <div class="brand-logo">
-                                <a href="{{route('home')}}" class="footer-logo float-start">
+                                <a href="/" class="footer-logo float-start">
                                     <img src="{{asset('assets/images/logo.png')}}" class="f-logo img-fluid blur-up lazyload"
                                         alt="logo">
                                 </a>
@@ -33,16 +33,16 @@
                             <div class="footer-content">
                                 <ul>
                                     <li>
-                                        <a href="{{route('home')}}" class="font-dark">Home</a>
+                                        <a href="/" class="font-dark">Home</a>
                                     </li>
                                     <li>
-                                        <a href="{{route('shop')}}" class="font-dark">Shop</a>
+                                        <a href="/" class="font-dark">Shop</a>
                                     </li>
                                     <li>
-                                        <a href="{{route('about_us')}}" class="font-dark">About Us</a>
+                                        <a href="/" class="font-dark">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="{{route('contact')}}" class="font-dark">Contact Us</a>
+                                        <a href="/" class="font-dark">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
