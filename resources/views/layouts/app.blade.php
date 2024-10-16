@@ -19,7 +19,6 @@
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     @else
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
 </head>
 <body class="font-sans antialiased">
