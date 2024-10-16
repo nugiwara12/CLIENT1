@@ -6,7 +6,7 @@
                     <div class="main-menu">
                         <div class="menu-left">
                             <div class="brand-logo">
-                                <a href="{{route('home')}}">
+                                <a href="/">
                                     <img src="{{asset('assets/images/logo.png')}}" class="h-logo img-fluid blur-up lazyload"
                                         alt="logo">
                                 </a>
@@ -55,7 +55,7 @@
                                 </li>
                                 <li class="onhover-dropdown wislist-dropdown">
                                     <div class="cart-media">
-                                        <a href="{{route('cart')}}">
+                                        <a href="/">
                                             <i data-feather="shopping-cart"></i>
                                             <span id="cart-count" class="label label-theme rounded-pill">
                                                 0
@@ -63,27 +63,7 @@
                                         </a>
                                     </div>
                                 </li>
-                                <li class="onhover-dropdown">
-                                    <div class="cart-media name-usr">
-                                        @auth
-                                            <span>{{ auth()->user()->name }}</span>
-                                        @endauth
-                                        <i data-feather="user"></i>
-                                    </div>
-                                    <div class="onhover-div profile-dropdown">
-                                        <ul>
-                                            @auth
-                                                <li><a href="">My Acc</a></li>
-                                                <li><a href="{{ route('logout') }}">Logout</a></li>
-                                            @else
-                                                @if (Route::has('login'))
-                                                    <li><a href="{{ route('login') }}" class="d-block">Login</a></li>
-                                                    <li><a href="{{ route('register') }}" class="d-block">Register</a></li>
-                                                @endif
-                                            @endauth
-                                        </ul>
-                                    </div>
-                                </li>
+                                <!-- login and register when it has inside -->
 
                             </ul>
                         </div>
