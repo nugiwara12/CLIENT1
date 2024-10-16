@@ -13,6 +13,9 @@
         <link rel="icon" href="{{asset('admin_assets/images/logo/logo.ico')}}" type="image/x-icon">
         <link rel="icon" href="{{asset('admin_assets/images/logo/logo.ico')}}" type="image/x-icon">
         @yield('styles')
+
+        <!-- Scripts -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
