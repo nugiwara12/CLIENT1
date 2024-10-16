@@ -1,4 +1,6 @@
+@extends('layouts.app2')
 
+@section('contents')
 
  {{-- CTA --}}
  <div class="container-fluid">
@@ -325,3 +327,4 @@
 
 {{-- <div id="qvmodal"></div> --}}
 
+@endsection
