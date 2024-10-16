@@ -11,28 +11,15 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <link rel="icon" href="{{ asset('admin_assets/images/logo/logo.ico') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('admin_assets/images/logo/logo.ico') }}" type="image/x-icon">
-    @yield('styles')
 
-    <!-- Tailwind CSS CDN for Production -->
-    @if (app()->environment('production'))
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    @else
-        <!-- Scripts -->
-    @endif
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    @yield('styles')
 </head>
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
         @include('layouts.navigation')
-
-        <!-- Page Heading -->
-        @isset($header)
-            <header class="bg-white shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    {{ $header }}
-                </div>
-            </header>
-        @endisset
 
         <!-- Page Content -->
         <main>
@@ -40,7 +27,6 @@
         </main>
     </div>
     @yield('scripts')
-    <!-- Add your custom scripts here -->
     <script>
         // Initialize your Vue app or other JavaScript logic here if needed
         new Vue({
