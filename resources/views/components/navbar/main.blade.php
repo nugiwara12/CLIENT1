@@ -58,7 +58,7 @@
                                         <a href="/">
                                             <i data-feather="shopping-cart"></i>
                                             <span id="cart-count" class="label label-theme rounded-pill">
-                                                0
+                                                6
                                             </span>
                                         </a>
                                     </div>
