@@ -34,7 +34,7 @@
         <div class="col-md-4 d-flex"> <!-- Use flex for horizontal alignment -->
             <div class="d-flex flex-column"> <!-- Create a column for promo images -->
                 <div class="lightblue-box1 mb-2"><img src="{{ asset('assets/images/img3.png')}}" alt="FIRST PROMO" class="box1-image"></div>
-                <div class="lightblue-box2 mb-2"><img src="{{ asset('assets/images/img4.PNG')}}" alt="SECOND PROMO" class="box1-image"></div>
+                <div class="lightblue-box2 mb-2"><img src="{{ asset('assets/images/img4.png')}}" alt="SECOND PROMO" class="box1-image"></div>
             </div>
         </div>
     </div>
