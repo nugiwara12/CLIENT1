@@ -167,7 +167,7 @@
                 <div class="category-wrapper category-slider1 white-arrow category-arrow">
                     <div>
                         <a href="shop-left-sidebar.html" class="category-wrap category-padding">
-                            <img src="assets/images/fashion/category/1.jpg" class="bg-img blur-up lazyload"
+                            <img src="{{ asset('assets/images/fashion/category/1.jpg')}}" class="bg-img blur-up lazyload"
                                 alt="category image">
                             <div class="category-content category-text-1">
                                 <h3 class="theme-color">For Him</h3>
@@ -177,7 +177,7 @@
                     </div>
                     <div>
                         <a href="shop-left-sidebar.html" class="category-wrap category-padding">
-                            <img src="assets/images/fashion/category/2.jpg" class="bg-img blur-up lazyload"
+                            <img src="{{ asset('assets/images/fashion/category/2.jpg')}}" class="bg-img blur-up lazyload"
                                 alt="category image">
                             <div class="category-content category-text-1">
                                 <h3 class="theme-color">For Her</h3>

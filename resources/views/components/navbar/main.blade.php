@@ -12,13 +12,6 @@
                                 </a>
                             </div>
                         </div>
-                        <nav>
-                            <li>
-                                <div class="search-box">
-                                    <i data-feather="search"></i>
-                                </div>
-                            </li>
-                        </nav>
                         <div class="menu-right">
                             <ul>
                                 <div class="main-navbar">
@@ -67,20 +60,6 @@
 
                             </ul>
                         </div>
-                        <!-- <div class="search-full">
-                            <form method="GET" class="search-full" action="http://localhost:8000/search">
-                                <div class="input-group">
-                                    <span class="input-group-text">
-                                        <i data-feather="search" class="font-light"></i>
-                                    </span>
-                                    <input type="text" name="q" class="w-full search-type"
-                                        placeholder="Search here..">
-                                    <span class="input-group-text close-search">
-                                        <i data-feather="x" class="font-light"></i>
-                                    </span>
-                                </div>
-                            </form>
-                        </div> -->
                     </div>
                 </div>
             </div>
