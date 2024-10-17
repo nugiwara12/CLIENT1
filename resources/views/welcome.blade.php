@@ -10,15 +10,15 @@
                 <div class="slide active">
                     <div class="lightblue-box">
                         <div class="slide-text">
-                        <img src="assets/images/img1.png" alt="FIRST IMAGE" class="box1-image">
+                        <img src="{{ asset('assets/images/img1.png')}}" alt="FIRST IMAGE" class="box1-image">
                     </div>
                     </div>
                 </div>
                 <div class="slide">
-                    <div class="lightblue-box"><img src="assets/images/slide.png" alt="SECOND IMAGE" class="box1-image"></div>
+                    <div class="lightblue-box"><img src="{{ asset('assets/images/slide.png')}}" alt="SECOND IMAGE" class="box1-image"></div>
                 </div>
                 <div class="slide">
-                    <div class="lightblue-box"><img src="assets/images/slide.png" alt="THIRD IMAGE" class="box1-image"></div>
+                    <div class="lightblue-box"><img src="{{ asset('assets/images/slide.png')}}" alt="THIRD IMAGE" class="box1-image"></div>
                 </div>
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)" style="position: absolute; left: 10px; top: 50%; color: white;">&#10094;</a>
@@ -33,8 +33,8 @@
 
         <div class="col-md-4 d-flex"> <!-- Use flex for horizontal alignment -->
             <div class="d-flex flex-column"> <!-- Create a column for promo images -->
-                <div class="lightblue-box1 mb-2"><img src="assets/images/img3.png" alt="FIRST PROMO" class="box1-image"></div>
-                <div class="lightblue-box2 mb-2"><img src="assets/images/img4.PNG" alt="SECOND PROMO" class="box1-image"></div>
+                <div class="lightblue-box1 mb-2"><img src="{{ asset('assets/images/img3.png')}}" alt="FIRST PROMO" class="box1-image"></div>
+                <div class="lightblue-box2 mb-2"><img src="{{ asset('assets/images/img4.PNG')}}" alt="SECOND PROMO" class="box1-image"></div>
             </div>
         </div>
     </div>
